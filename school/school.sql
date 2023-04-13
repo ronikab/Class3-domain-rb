@@ -36,8 +36,9 @@ create table sections (
  teacher_id INTEGER 
 );
 
-create table enrollment (
-enrollment_id INTEGER PRIMARY key AUTOINCREMENT
+
+create table enrollments (
+enrollment_id INTEGER PRIMARY key AUTOINCREMENT,
 student_id INTEGER,
 teacher_id INTEGER,
 course_id INTEGER,
