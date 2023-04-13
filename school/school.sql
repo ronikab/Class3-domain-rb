@@ -14,6 +14,8 @@ CREATE TABLE students (
   phone_number TEXT
 );
 
+-- Create the rest of the tables
+
 Create table teachers (
   id INTEGER PRIMARY key AUTOINCREMENT, 
   first_name TEXT, 
@@ -34,6 +36,6 @@ create table sections (
  teacher_id INTEGER 
 );
 
--- Create the rest of the tables
+
 
 
